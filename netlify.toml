@@ -7,14 +7,14 @@
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
 [context.production]
-  command = "hugo master"
+  command = "hugo"
   [context.production.environment]
-    ACCESS_TOKEN = "bd2bb915da0a4606c20eba6e703053c411a23e25"
+    HUGO_VERSION = "0.24.1"
 
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
 [context.deploy-preview.environment]
-  ACCESS_TOKEN = "bd2bb915da0a4606c20eba6e703053c411a23e25"
+  HUGO_VERSION = "0.24.1"
 
 # Branch Deploy context: All deploys that are not in
 # an active Deploy Preview will inherit these settings.
