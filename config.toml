@@ -5,6 +5,8 @@ publishDir = "public"
 buildDrafts = false
 canonifyURLs = true
 title = "Amiga Eli"
+# theme to use (located by default in /themes/THEMENAME/)
+themesDir = "themes"
 theme = "hugo-theme-bootstrap4-blog"
 
 [taxonomies]
