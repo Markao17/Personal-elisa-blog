@@ -1,5 +1,5 @@
 contentDir = "content"
-baseURL = "https://elisablog.netlify.com"
+baseURL = "https://elisablog.netlify.com/"
 layoutDir = "layouts"
 publishDir = "public"
 buildDrafts = false

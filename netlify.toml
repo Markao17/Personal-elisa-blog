@@ -1,9 +1,7 @@
 # Global settings applied to the whole site.
 [build]
   publish = "public/"
-  themesDir = "themes"
-  theme = "hugo-theme-bootstrap4-blog"
-  command = "hugo -t hugo-theme-bootstrap4-blog & hugo"
+  command = "hugo"
 
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
