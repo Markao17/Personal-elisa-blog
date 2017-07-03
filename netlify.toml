@@ -1,7 +1,6 @@
 # Global settings applied to the whole site.
 [build]
-  base    = "site"
-  publish = "public"
+  publish = "public/"
   command = "hugo"
 
 # Production context: All deploys to the main
@@ -9,23 +8,23 @@
 [context.production]
   command = "hugo"
   [context.production.environment]
-    HUGO_VERSION = "0.24.1"
+    HUGO_VERSION = "0.20"
 
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.24.1"
+  HUGO_VERSION = "0.20"
 
 # Branch Deploy context: All deploys that are not in
 # an active Deploy Preview will inherit these settings.
 [context.branch-deploy]
-  command = "hugo staging"
+  command = "hugo"
 
 # Specific branch context: Deploys from this branch
 # will take these settings and override their
 # current ones.
 [context.feature]
-  command = "hugo feature"
+  command = "hugo"
 
 [context."features/branch"]
   command = "hugo"
