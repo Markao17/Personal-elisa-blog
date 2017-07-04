@@ -13,8 +13,23 @@
   </url>
   
   <url>
+    <loc>https://elisablog.netlify.com/post/a-ver-se-isto-agora-da/</loc>
+    <lastmod>2017-09-06T11:25:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elisablog.netlify.com/post/another-new-post/</loc>
+    <lastmod>2017-07-03T15:17:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elisablog.netlify.com/post/2017-07-03-new-post/</loc>
+    <lastmod>2017-07-03T14:49:45+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://elisablog.netlify.com/post/second-post/</loc>
-    <lastmod>2017-07-02T04:03:58+01:00</lastmod>
+    <lastmod>2017-07-02T03:03:58+00:00</lastmod>
   </url>
   
   <url>
@@ -44,13 +59,13 @@
   </url>
   
   <url>
-    <loc>https://elisablog.netlify.com/categories/development/</loc>
+    <loc>https://elisablog.netlify.com/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://elisablog.netlify.com/tags/development/</loc>
+    <loc>https://elisablog.netlify.com/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -62,13 +77,13 @@
   </url>
   
   <url>
-    <loc>https://elisablog.netlify.com/categories/golang/</loc>
+    <loc>https://elisablog.netlify.com/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://elisablog.netlify.com/tags/golang/</loc>
+    <loc>https://elisablog.netlify.com/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
